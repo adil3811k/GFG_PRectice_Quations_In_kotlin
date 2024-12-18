@@ -7,7 +7,9 @@ fun main() {
 private fun primeNumbers():List<Int>{
     val list = mutableListOf<Int>()
     for (i in 2..100){
-
+        if (isPrime(i)){
+            list.add(i)
+        }
     }
     return list
 }

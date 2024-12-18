@@ -10,7 +10,7 @@ fun main() {
     println(isPrime(13))// true
 
 }
-private fun isPrime(num: Int):Boolean {
+ fun isPrime(num: Int):Boolean {
     if (num <= 1) {
         return false
     } else {
